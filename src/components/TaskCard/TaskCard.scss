@@ -1,0 +1,37 @@
+@import '../../App.scss';
+
+.task {
+    background-color: $primary-accent;
+    border-radius: 25px;
+    height: 150px;
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    cursor: grab;
+
+    .task-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .task-title {
+            color: whitesmoke;
+            font-weight: 600;
+            font-size: 1rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .delete-button {
+            background-color: transparent;
+            color: $secondary;
+            border: none;
+            cursor: pointer;
+        }
+        
+    }
+
+    .task-description {
+        color: $primary-light;
+        font-size: 0.8rem;
+    }
+}
